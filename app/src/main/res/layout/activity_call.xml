@@ -20,7 +20,7 @@
             android:layout_weight="6"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:text="someone is calling"
+            android:text="biri is arıyor"
             android:id="@+id/incomingNameTV"/>
 
         <ImageView
@@ -54,7 +54,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:hint="who to call ?"
+            android:hint="aranacak  ?"
             android:layout_margin="30dp"
             android:id="@+id/targetUserNameEt"/>
         <androidx.appcompat.widget.AppCompatButton
@@ -64,7 +64,7 @@
 
             android:layout_below="@id/targetUserNameEt"
             android:layout_marginHorizontal="30dp"
-            android:text="call"
+            android:text="ara"
             android:id="@+id/callBtn"/>
     </RelativeLayout>
     <RelativeLayout
@@ -108,12 +108,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle_background"
                 android:clickable="true"
                 android:focusable="true"
                 android:padding="8dp"
-                android:background="@drawable/circle_background"
                 app:backgroundTint="@color/cardview_dark_background"
-                app:srcCompat="@drawable/ic_baseline_mic_off_24" />
+                app:srcCompat="@drawable/ic_baseline_mic_24" />
 
             <ImageView
                 android:id="@+id/video_button"
@@ -126,7 +126,7 @@
                 android:padding="8dp"
                 android:background="@drawable/circle_background"
                 app:backgroundTint="@color/cardview_dark_background"
-                app:srcCompat="@drawable/ic_baseline_videocam_off_24" />
+                app:srcCompat="@drawable/ic_baseline_videocam_24" />
 
             <ImageView
                 android:id="@+id/end_call_button"
